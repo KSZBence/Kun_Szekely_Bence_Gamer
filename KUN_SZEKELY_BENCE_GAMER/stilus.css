@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(191, 201, 201);
+}
+
+body{
+    font-family: Arial, Verdana, sans-serif;
+    color: beige;
+    font-size: 10pt;
+    margin: 0;
+    background-image: url("kepek/black.png");
+}
+
+header{
+    background-image: url("kepek/game.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav li:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+article{
+    text-align: justify;
+    font-size: 10px;
+    height: 300px;
+    color: black;
+    margin: 10px;
+    }
+
+article h1{
+    font-size: 15px;
+}
+
+article img{
+    float: right;
+    max-width: 200px;
+    margin: 20px;
+}
+
+article li{
+    list-style-type: square;
+}
+
+footer{
+    text-align: center;
+    color: #000;
+    background-color: rgb(236, 174, 4);
+}
+
+table td{
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 700px){
+    main{
+        display: block;
+        grid-template-columns: 1fr;
+    }
+}
